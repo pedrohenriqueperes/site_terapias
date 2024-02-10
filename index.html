@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terapias Alternativas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0" >Clinica de Acupuntura</h1>
+            <button class="navbar-toggler b-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a clinica</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Terapeutas</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Tratamentos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-o-restaurante">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1500">
+                        <img src="./carousel/slide1.jpeg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="./carousel/slide2.jpeg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1500">
+                        <img src="./carousel/slide3.jpeg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./carousel/slide2.jpeg" class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <h2 class="section-title">Sobre <span>a  clinica</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ab nam quas veritatis temporibus distinctio est,
+                                 eum officia in quo nesciunt quidem molestiae delectus!
+                                 Iure ratione aspernatur at blanditiis minima tempore.
+                            </p>
+                            <h3 class="section-title">Nossos <span> terapeutas</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat provident necessitatibus quae ipsa beatae sapiente, maxime dolor corporis illo aperiam. Minus nobis atque dignissimos soluta, amet quae quia quod laboriosam?
+                            </p>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    
+                    <div class="col-md-4 ">
+                        <img src="./aniversario/casamento.jpg" alt="" class="d-block w-100  h-387px rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>Maria Beth
+                            </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus molestias nemo iste asperiores dolore accusamus, sequi aliquid, enim atque qui eligendi libero, alias expedita. Repudiandae itaque ad commodi quidem?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./aniversario/happyhour.jpg" alt="" class="d-block w-100 h-387px rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Seu Arnô</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus molestias nemo iste asperiores dolore accusamus, sequi aliquid, enim atque qui eligendi libero, alias expedita. Repudiandae itaque ad commodi quidem?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./aniversario/pexels-cottonbro-studio-4114731.PNG" alt="" class="d-block  w-100 h-387px rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>Doctor Doggy</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi doloribus molestias nemo iste asperiores dolore accusamus, sequi aliquid, enim atque qui eligendi libero, alias expedita. Repudiandae itaque ad commodi quidem?</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="cardapio">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center">
+                        Nossos <span class="text-colored">Tratamentos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">
+                                Acupuntura 
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">
+                                Massagem Japonêsa
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pf-da-tia" class="fw-bold text-start nav-link text-colored">
+                                Massagem Tailandesa 
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quitute-da-tia" class="fw-bold text-start nav-link text-colored">
+                                Tetha Healing
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#doce-caseiro" class="fw-bold text-start nav-link text-colored">
+                                Tapa na cara 
+                            </button>
+                        </nav>
+
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/bebidas/mango.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Agulhas</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/bebidas/suco-de-laranja.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Sangria</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/bebidas/smoothie.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Moxa-terapia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    
+                                    
+                                    
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/bebidas/alcolicas/cachaca.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Dô-in</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pf-da-tia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/pfs/churrasco.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold">Massagem Tailandesa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="quitute-da-tia">
+                                <div class="row">
+                                    
+                                   
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/entradas/fritas.jpeg" alt="">
+                                        <h5 class="text-colored fw-bold">Theta Healing</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                               
+                            </div>
+                            <div class="tab-pane" id="doce-caseiro">
+                                <div class="row">
+                                    
+                                    <div class="col-md-3">
+                                        <img class="d-bloc w-100 mt-2 " src="./cardapio/doces/doce-de-abobora.jpg" alt="">
+                                        <h5 class="text-colored fw-bold">Sessão Relaxante de Tapa na Cara</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" class="form-label">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" >
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem"></textarea required>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 mt-3">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored mt-5">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-telegram text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>Rua da liberdade, #0, Bairro Fora Lula, São Paulo, SP cep 00000-000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
